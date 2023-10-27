@@ -1,0 +1,44 @@
+a= 23
+b= 21
+c= 21
+hasil = (a + b)
+print(a,'+',b,'=',hasil)
+
+hasil = (a - c)
+print(a,'-',c,'=',hasil)
+
+hasil = (a + c)
+print(a,'+',c,'=',hasil)
+
+print(a)
+print(c)
+
+print("Nilai a = ",a)
+print("Nilai b = ",b)
+print("Nilai c = ",c)
+
+print("program menghitung luas dan keliling Trapesium")
+
+a =int(input("Masukan Alasnya                       ="))
+c =int(input("Masukan Sisi yang sejajar Dengan Alas = "))
+t =int(input("Masukan Tingginya                     = "))
+sa=int(input("Masukan Sisi 1                        = "))
+sb=int(input("Masukan sisi 2                        = "))
+sc=int(input("Masukan sisi 3                        = "))
+sd=int(input("Masukan sisi 4                        = "))
+
+luas =1/2* (a+c)*t
+kel  =sa+sb+sc+sd
+
+print("Luas Trapesium Adalah        =", luas)
+print("Keliling Trapesium Adalah    =", kel)
+
+print("Program Menghitung Luas dan Keliling Lingkaran")
+r =int(input("Masukan Jari - Jari = "))
+
+phi =22/7
+luas= phi*r*r
+kel = 2*phi*r
+
+print("Luas Lingkaran adalah               =", luas)
+print("Keliling Lingkaran adalah           =", kel)
